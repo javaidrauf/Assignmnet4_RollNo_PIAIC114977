@@ -1,0 +1,27 @@
+<!-- Q2: Write a program that takes a positive integer from user & display the
+following in your browser.
+a. number
+b. round off value of the number
+c. floor value of the number
+d. ceil value of the number -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>task2</title>
+</head>
+<body>
+    <script>
+        var input = prompt ("Enter a positive integer","78.7");
+        var num = Number(input);
+        var num1 = Math.round(input);
+        var num2 = Math.floor(input);
+        var num3 = Math.ceil(input);
+
+        alert("Number is: "+num + " "+"\nRound of value of the number: "+num1+" "+"\nFloor value of the number: "+num2+" "+"\nCeil value of the number: "+num3);
+
+    </script>
+    
+</body>
+</html>
